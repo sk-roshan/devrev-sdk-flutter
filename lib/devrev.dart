@@ -4,20 +4,20 @@ import 'devrev_platform_interface.dart';
 class DevRev {
 
   // Configuration
-  Future<void> configure(String appId) {
+  Future<void> configure({required String appId}) {
     return DevrevPlatform.instance.configure(appId: appId);
   }
 
   // Authentication
-  Future<void> identifyUnverifiedUser(String userId) {
+  Future<void> identifyUnverifiedUser({required String userId}) {
     return DevrevPlatform.instance.identifyUnverifiedUser(userId: userId);
   }
 
-  Future<void> identifyAnonymousUser(String userId) {
+  Future<void> identifyAnonymousUser({required String userId}) {
     return DevrevPlatform.instance.identifyAnonymousUser(userId: userId);
   }
 
-  Future<void> updateUser(String userId) {
+  Future<void> updateUser({required String userId}) {
     return DevrevPlatform.instance.identifyAnonymousUser(userId: userId);
   }
 
@@ -27,7 +27,7 @@ class DevRev {
   }
 
   // Analytics
-  Future<void> trackEvent(String name, Map<String, String> properties) {
+  Future<void> trackEvent({required String name, required Map<String, String> properties}) {
     return DevrevPlatform.instance.trackEvent(name: name, properties:  properties);
   }
 
