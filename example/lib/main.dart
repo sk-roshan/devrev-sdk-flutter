@@ -25,7 +25,7 @@ class _MyAppState extends State<MyApp> {
   // Platform messages are asynchronous, so we initialize in an async method.
   Future<void> initilizeDevRev() async {
     try {
-      await _devrevPlugin.configure("don:core:dvrv-us-1:devo/0:plug_setting/1");
+      await _devrevPlugin.configure(appId: "don:core:dvrv-us-1:devo/0:plug_setting/1");
     } catch (e) {
       print("Failed to initialize DevRev SDK $e");
     }
@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
               ElevatedButton(
                 onPressed: () async {
                   // First, configure DevRev SDK
-                  await _devrevPlugin.identifyUnverifiedUser("skroshan");
+                  await _devrevPlugin.identifyUnverifiedUser(userId: "skroshan");
                   // After initialization, show the support screen
                   // await showSupport(platform);
                 },

@@ -1,3 +1,7 @@
 ## 0.0.1
 
-* TODO: Add support for DevRev `configure`, `identifyUnverifiedUser` and `showSupport`
+* Add support for DevRev `configure`, `identifyUnverifiedUser` and `showSupport`
+
+## 0.0.2
+
+* Add named parameters

@@ -1,8 +1,8 @@
 name: devrev
-description: "A new Flutter plugin for DevRev SDK"
-version: 0.0.1
-homepage: "https://github.com/sk-roshan/devrev"
-repository: "https://github.com/sk-roshan/devrev"
+description: "A Flutter plugin for DevRev SDK"
+version: 0.0.2
+homepage: "https://github.com/sk-roshan/devrev-sdk-flutter"
+repository: "https://github.com/sk-roshan/devrev-sdk-flutter"
 
 environment:
   sdk: ^3.6.0
