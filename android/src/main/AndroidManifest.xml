@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.roshan.devrev">
+  <application>
+        <!-- Declare the activity for the DevRev SDK -->
+        <activity
+            android:name="ai.devrev.sdk.plug.activity.PlugActivity"
+            android:theme="@style/Theme.AppCompat.Light">
+            <!-- Any other required configurations for PlugActivity -->
+        </activity>
+    </application>
+</manifest>

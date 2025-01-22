@@ -1,0 +1,35 @@
+PODS:
+  - devrev (0.0.1):
+    - DevRevSDK
+    - Flutter
+  - DevRevSDK (1.0.1)
+  - Flutter (1.0.0)
+  - integration_test (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - devrev (from `.symlinks/plugins/devrev/ios`)
+  - Flutter (from `Flutter`)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DevRevSDK
+
+EXTERNAL SOURCES:
+  devrev:
+    :path: ".symlinks/plugins/devrev/ios"
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+
+SPEC CHECKSUMS:
+  devrev: 37c55938f9643c0c33a039c8fc6ec0b1b5857c02
+  DevRevSDK: ca4fd5b0187adb2c2a63835cda8beb1f53f1bf71
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+
+PODFILE CHECKSUM: d83a092aac69e60f911701910c26b3eed6bfb7e4
+
+COCOAPODS: 1.16.2
